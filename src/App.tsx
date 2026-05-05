@@ -168,7 +168,7 @@ export default function App() {
             {['About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
               <a key={item} href={`#${item.toLowerCase()}`} className="text-sm font-medium hover:text-accent-cyan transition-colors">{item}</a>
             ))}
-            <a href="/Pratham_Rathore_DataAnalyst_Resume.pdf" download><button className="btn-secondary py-2 px-6 text-sm">Resume</button></a>
+            <a href="../Pratham_Rathore_Data_AnalystResume.pdf" download><button className="btn-secondary py-2 px-6 text-sm">Resume</button></a>
           </div>
 
           <button className="md:hidden text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -186,7 +186,7 @@ export default function App() {
                 {['About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
                   <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setIsMenuOpen(false)} className="text-lg font-medium hover:text-accent-cyan">{item}</a>
                 ))}
-                   <a href="/Pratham_Rathore_DataAnalyst_Resume.pdf" download> <button className="btn-primary w-full">Download Resume</button></a>
+                   <a  href="../Pratham_Rathore_Data_AnalystResume.pdf" download> <button className="btn-primary w-full">Download Resume</button></a>
               </div>
             </motion.div>
           )}
